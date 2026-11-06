@@ -50,8 +50,6 @@ source dtbo_env/bin/activate        # Windows: dtbo_env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-The tests were run with Python 3.13, torch 2.15, BoTorch 0.18.1, GPyTorch 1.15.2, scikit-learn 1.9.1, NumPy 2.5.4 and pandas 3.1.1. The paper's runs used Python 3.14 with the newest versions of these packages at the time.
-
 ## Case studies
 
 | Case | Data file | Candidates | Feasible | Inputs | Objective |
@@ -163,8 +161,6 @@ Each run uses `--seeds 1 --iterations 5` for a quick test, or `--seed 0 --iterat
 - **Seeds:** `--seed-start` changes the first seed.
 - **DT-BO settings:** `--alpha`, the tree settings and the refit interval can all be changed.
 - **Hardware:** `--device cpu` or `cuda`, in the DT-BO and Normal BO scripts.
-
-On the authors' cluster, using 8 CPU cores, the seven-peak runs took about 3.7 h for DT-BO, 0.9 h for Normal BO and 1.4 h for SCBO, each covering 50 seeds.
 
 ## Method settings
 
