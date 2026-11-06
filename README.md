@@ -2,7 +2,7 @@
 
 Code and data for the paper *Decision-Tree-Guided Feasibility-Aware Bayesian Optimization for Materials Discovery* (M. T. Ehsan and M. Sharma Priyadarshini).
 
-![DT-BO graphical abstract](graphical_abstract_v1.png)
+![DT-BO graphical abstract](graphical_abstract_v2.png)
 
 In materials discovery, many candidates turn out to be unstable or fail to form, and this is usually only known after the experiment or simulation has been run. DT-BO learns these feasibility constraints as it goes:
 
@@ -19,7 +19,7 @@ This repository runs DT-BO and conventional ("Normal") BO on the three case stud
 Github_repo/
 ├── README.md
 ├── requirements.txt
-├── graphical_abstract_v1.png
+├── graphical_abstract_v2.png
 ├── synthetic_dataset/
 │   ├── data/7peaks_n2000.csv                 # 2,007 candidates
 │   ├── dt_bo_synthetic.py                    # DT-BO
