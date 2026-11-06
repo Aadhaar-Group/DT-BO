@@ -225,8 +225,11 @@ If you use this code, please cite the paper (details will be added after publica
 
 ## License
 
-The code in this repository is released under the [MIT License](LICENSE). The HEA and HOIP datasets belong to their original authors (see [Data sources](#data-sources)). They are included here for reproducibility and remain under their original terms.
+The code in this repository is released under the [MIT License](LICENSE). The HEA and HOIP datasets belong to their original authors (see [Data sources](#data-sources)). They remain under their original terms.
 
 ## Contact
 
-Mashaekh Tausif Ehsan (mashaekhtausif@vt.edu)
+For any queries, please contact:
+
+Mashaekh Tausif Ehsan (mashaekhtausif@vt.edu)<br>
+Kevin T. Crofton Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, Virginia, USA
