@@ -76,9 +76,9 @@ $$h(x_1,x_2) = 0.02\left[(x_2 - x_1)^2 - 8^2\right]$$
 $$g_1 = 0.5G_{-6,6} + 0.35G_{-8.5,2.5} + 0.3G_{-3,8.5} + 0.4G_{6,-6} + 0.3G_{8.5,-2.5} + 0.25G_{3,-8.5} + h, \qquad g_2 = 0.8G_{2,3} + 0.6G_{-3,-4} - h$$
 
 The $h$ terms cancel in $f = g_1 + g_2$, so they only affect feasibility. They place the feasibility boundary close to the lines $x_2 - x_1 = \pm 8$, which splits the feasible space into two separate corners divided by an infeasible diagonal band:
-- **Infeasible band:** holds the global maximum (0.8 at $(2, 3)$).
-- **Upper-left corner:** holds the feasible maximum (0.5 at $(-6, 6)$).
-- **Lower-right corner:** has a competing local peak of 0.4 at $(6, -6)$.
+- **Infeasible band:** holds the global maximum, 0.8 at (2, 3).
+- **Upper-left corner:** holds the feasible maximum, 0.5 at (−6, 6).
+- **Lower-right corner:** has a competing local peak, 0.4 at (6, −6).
 
 The candidates are the first 3,000 points of the same kind of Sobol sequence, plus the eight peak centres.
 
