@@ -1,4 +1,4 @@
-# DT-BO: Decision-Tree-Guided Feasibility-Aware Bayesian Optimization
+# DT-BO: Decision-Tree-Guided Feasibility-Aware Bayesian Optimization for Materials Discovery
 
 Code and data for the paper *Decision-Tree-Guided Feasibility-Aware Bayesian Optimization for Materials Discovery* (M. T. Ehsan and M. Sharma Priyadarshini).
 
