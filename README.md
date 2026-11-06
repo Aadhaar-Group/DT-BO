@@ -18,6 +18,7 @@ This repository runs DT-BO and conventional ("Normal") BO on the three case stud
 ```
 Github_repo/
 ├── README.md
+├── LICENSE
 ├── requirements.txt
 ├── graphical_abstract_v2.png
 ├── synthetic_dataset/
@@ -222,6 +223,10 @@ If you use this code, please cite the paper (details will be added after publica
 }
 ```
 
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The HEA and HOIP datasets belong to their original authors (see [Data sources](#data-sources)). They are included here for reproducibility and remain under their original terms.
+
 ## Contact
 
-Maitreyee Sharma Priyadarshini, Kevin T. Crofton Department of Aerospace and Ocean Engineering, Virginia Tech (msharmap@vt.edu).
+Mashaekh Tausif Ehsan (mashaekhtausif@vt.edu)
