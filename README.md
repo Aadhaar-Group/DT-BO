@@ -196,7 +196,7 @@ Every row is one BO iteration of one seed, and each file has `Seed` and `BO_Iter
 ## Reproducibility notes
 
 - **Synthetic scripts:** these are the exact scripts that produced the paper's seven-peak results and the Supplementary two-corner results.
-- **HEA and HOIP scripts:** the paper ran DT-BO and Normal BO together in one script per dataset. Here they're split into two scripts, with the plotting code removed. The split scripts give the same results as the originals; this was checked on 2 seeds × 15 iterations.
+- **HEA and HOIP scripts:** the paper ran DT-BO and Normal BO together in one script per dataset.
 - **Exact numbers:** results depend on library versions, hardware and thread count, so a rerun may not match the paper exactly. Expect small differences in the selected candidates and similar overall results.
 
 ## Data sources
