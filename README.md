@@ -193,12 +193,6 @@ Every row is one BO iteration of one seed, and each file has `Seed` and `BO_Iter
 
 `DT_Classifier_Refit_Metrics.csv` scores each refitted tree against the full set of labels. These scores, including the F1 score, are for diagnosis only. They are never used for training or for choosing candidates.
 
-## Reproducibility notes
-
-- **Synthetic scripts:** these are the exact scripts that produced the paper's seven-peak results and the Supplementary two-corner results.
-- **HEA and HOIP scripts:** the paper ran DT-BO and Normal BO together in one script per dataset.
-- **Exact numbers:** results depend on library versions, hardware and thread count, so a rerun may not match the paper exactly. Expect small differences in the selected candidates and similar overall results.
-
 ## Data sources
 
 Please cite the original sources if you use these datasets:
