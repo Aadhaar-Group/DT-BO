@@ -2,7 +2,7 @@
 
 Code and data for the paper *Decision-Tree-Guided Feasibility-Aware Bayesian Optimization for Materials Discovery* (M. T. Ehsan and M. Sharma Priyadarshini).
 
-![DT-BO graphical abstract](graphical_abstract_v2.png)
+![DT-BO graphical abstract](graphical_abstract.png)
 
 In materials discovery, many candidates turn out to be unstable or fail to form, and this is usually only known after the experiment or simulation has been run. DT-BO learns these feasibility constraints as it goes:
 
@@ -20,7 +20,7 @@ Github_repo/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── graphical_abstract_v2.png
+├── graphical_abstract.png
 ├── synthetic_dataset/
 │   ├── data/7peaks_n2000.csv                 # 2,007 candidates
 │   ├── dt_bo_synthetic.py                    # DT-BO
@@ -206,14 +206,20 @@ SCBO was proposed by D. Eriksson and M. Poloczek, *Proceedings of the 24th Inter
 
 ## Citation
 
-If you use this code, please cite the paper (details will be added after publication):
+If you use this code, please cite the paper:
+
+M. T. Ehsan and M. Sharma Priyadarshini, Decision-Tree-Guided Feasibility-Aware Bayesian Optimization for Materials Discovery, *ChemRxiv*, 2026, DOI: [10.26434/chemrxiv.15012840/v1](https://doi.org/10.26434/chemrxiv.15012840/v1).
 
 ```bibtex
-@article{ehsan_dtbo,
-  title   = {Decision-Tree-Guided Feasibility-Aware Bayesian Optimization for Materials Discovery},
-  author  = {Ehsan, Mashaekh Tausif and Sharma Priyadarshini, Maitreyee},
-  journal = {},
-  year    = {}
+@article{ehsan_2026_dtbo,
+  title     = {Decision-Tree-Guided Feasibility-Aware Bayesian Optimization for Materials Discovery},
+  author    = {Ehsan, Mashaekh Tausif and Sharma Priyadarshini, Maitreyee},
+  journal   = {ChemRxiv},
+  year      = {2026},
+  month     = nov,
+  doi       = {10.26434/chemrxiv.15012840/v1},
+  url       = {https://doi.org/10.26434/chemrxiv.15012840/v1},
+  note      = {Preprint}
 }
 ```
 
